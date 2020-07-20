@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  vars:
+    docker_users:
+    - deploy
+
+  roles:
+  - docker
