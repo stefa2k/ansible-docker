@@ -53,3 +53,7 @@
     groups: docker
     append: yes
   with_items: "{{ docker_users }}"
+
+- name: Reboot
+  reboot:
+    reboot_timeout: 600
