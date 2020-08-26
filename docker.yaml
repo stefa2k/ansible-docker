@@ -4,6 +4,8 @@
   vars:
     docker_users:
     - deploy
+    docker_address_pool_base: 172.80.0.0/12
+    docker_address_pool_size: 24
 
   roles:
   - docker
